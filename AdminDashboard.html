@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindMed</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/materializecss.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-extended nav-fixed cyan darken-4">
+            <div class="nav-wrapper">
+                <a class="brand-logo white-text" id="page-logo" href="index.html">
+                    <i class="material-icons" id="page-logo-icon">add_to_queue</i> &nbsp; FindMed
+                </a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                    <i class="material-icons grey-text text-darken-4">menu</i>
+                </a>
+
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <!-- Dropdown Trigger -->
+                    <li>
+                        <a class='dropdown-trigger white-text' href='#' data-target='dropdown1'>
+                            <i class="material-icons left white-text">arrow_drop_down</i>More Pages
+                        </a>
+
+                        <!-- Dropdown Structure -->
+                        <ul id='dropdown1' class='dropdown-content'>
+                            <li><a class="grey-text text-darken-3" href="DoctorDashboard.html">Doctor Dashboard</a></li>
+                            <li><a class="grey-text text-darken-3" href="DoctorHealthTips.html">Health Tips</a>
+                                <hr>
+                            </li>
+                            <li><a class="grey-text text-darken-3" href="AdminDashboard.html">Admin Dashboard</a>
+                            </li>
+                    </li>
+                    <li><a class="grey-text text-darken-3" href="DoctorList.html"> Doctor List</a>
+                    </li>
+                    <li><a class="grey-text text-darken-3" href="UserDashboard.html"> User Dashboard</a>
+                    </li>
+                    
+                    <li><a class="grey-text text-darken-3" href="DoctorInfo.html">Doctor Info</a>
+                    </li>
+                </ul>
+                </li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav yellow-text text-darken-3" id="mobile-nav">
+         
+            <li><a target="_blank" class="title" href="signin.html">Login</a></li>
+            <li><a target="_blank" class="title" href="signup.html">Registration</a></li>
+            <li><a class="grey-text text-darken-3" href="DoctorDashboard.html">Doctor Dashboard</a></li>
+            <li><a class="grey-text text-darken-3" href="DoctorHealthTips.html">Health Tips</a>
+            </li>
+            <li><a class="grey-text text-darken-3" href="AdminDashboard.html">Admin Dashboard</a>
+            </li>
+            </li>
+            <li><a class="grey-text text-darken-3" href="DoctorList.html">Doctor List</a>
+            </li>
+            <li><a class="grey-text text-darken-3" href="UserDashboard.html">User Dashboard</a>
+            </li>
+
+        </ul>
+    </header>
+
+
+    <div class="contents container">
+        <div class="row">
+            <div class="col s12 l12">
+                <div class="card">
+                    <div class="card-content">
+                        <h4 class="center-align cyan-text text-darken-4">
+                            Medicine Information
+                        </h4>
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input id="first_name" type="text" class="validate">
+                                        <label for="first_name">Medicine Name</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input id="first_name" type="text" class="validate">
+                                        <label for="first_name">Brand Name</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <textarea cols="30" rows="10" type="text"
+                                            class="materialize-textarea"></textarea>
+                                        <label for="first_name">Indications</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input id="first_name" type="text" class="validate">
+                                        <label for="text">Administrations</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input id="first_name" type="text" class="validate">
+                                        <label for="first_name">Contradictations</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <textarea id="first_name" type="text" class="materialize-textarea"></textarea>
+                                        <label for="first_name">Side effect</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input id="first_name" type="text" class="validate">
+                                        <label for="first_name">Precautions & Warnings</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <textarea id="first_name" type="text" class="materialize-textarea"></textarea>
+                                        <label for="first_name">Mode of actions</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <textarea id="first_name" type="text" class="materialize-textarea"></textarea>
+                                        <label for="first_name">Interactions</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input id="first_name" type="text" class="validate">
+                                        <label for="first_name">Price</label>
+                                    </div>
+                                </div>
+                                <div class="center-align">
+                                    <a href="#" class="waves-effect btn cyan darken-4">Save Medicine</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/materializecss.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

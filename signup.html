@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindMed</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/materializecss.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-extended nav-fixed cyan darken-4">
+            <div class="nav-wrapper">
+                <a class="brand-logo white-text" id="page-logo" href="index.html">
+                    <i class="material-icons" id="page-logo-icon">add_to_queue</i> &nbsp; FindMed
+                </a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                    <i class="material-icons grey-text text-darken-4">menu</i>
+                </a>
+
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <!-- Dropdown Trigger -->
+                    <li><a href="signin.html" class="btn-flat" id="square-signin">SignIn</a></li>
+                    <li><a href="signup.html" class="btn-flat" id="square-signup">SignUp</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav yellow-text text-darken-3" id="mobile-nav">
+            <li><a target="_blank" class="title" href="signin.html">Login</a></li>
+            <li><a target="_blank" class="title" href="signup.html">Registration</a></li>
+            <li><a class="grey-text text-darken-3" href="DoctorDashboard.html">Doctor Dashboard</a></li>
+            <li><a class="grey-text text-darken-3" href="DoctorHealthTips.html">Health Tips</a>
+            </li>
+            <li><a class="grey-text text-darken-3" href="AdminDashboard.html">Admin Dashboard</a>
+            </li>
+            </li>
+            <li><a class="grey-text text-darken-3" href="DoctorList.html">Doctor List</a>
+            </li>
+            <li><a class="grey-text text-darken-3" href="UserDashboard.html">User Dashboard</a>
+            </li>
+        </ul>
+    </header>
+
+    <form action="">
+        <div class="container contents">
+            <div class="row">
+                <div class="card col s12 l6 offset-l3 offset-m3 z-depth-2 card-border">
+                    <div class="card-content">
+                        <div class="center-align">
+                            <h4 class="teal-text text-darken-4">Doctor Sign Up</h4>
+                        </div>
+                        <div class="col s12 l12" id="info-input-field">
+                            <div class="row">
+                                <div class="input-field col s12 l12">
+                                    <input id="last_name" type="text" class="validate" required>
+                                    <label for="last_name">License ID</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12 l12">
+                                    <input id="last_name" type="text" class="validate" required>
+                                    <label for="last_name">Name</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12 l12">
+                                    <input id="last_name" type="text" class="validate" required>
+                                    <label for="last_name">Email</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12 l12">
+                                    <input id="password" type="password" class="validate" required>
+                                    <label for="password">Password</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12 l12">
+                                    <input id="password" type="password" class="validate" required>
+                                    <label for="password">Confirm Password</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="center-align">
+                                    <a href="signin.html"
+                                        class="waves-effect waves-light btn cyan darken-4">Register</a><br><br>
+                                    <span class="clink">New here?&nbsp; <a href="signin.html">SignIn</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </form>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/materializecss.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
